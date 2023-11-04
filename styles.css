@@ -86,3 +86,42 @@ h2 {
     border-radius: 4px;
     cursor: pointer;
 }
+
+@media(max-width:2560px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media(max-width:1536px) {
+    #main {
+        width: 95%;
+    }
+    .img {
+        width: 100%;
+    }
+
+    #header {
+        margin: 20px 0;
+        padding: 40px;
+        gap: 20px;
+        justify-content: center;
+    }
+    h2 {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 960px) {
+    h2 {
+        text-align: center;
+        font-size: 3rem;
+    }
+    #search-box {
+        width: 80%;
+        margin: auto;
+    }
+    #input {
+        font-size: .14rem;
+    }
+}
